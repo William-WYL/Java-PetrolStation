@@ -80,10 +80,17 @@ public class Test {
         // 1.1 Open a new membership card
         System.out.println("Which type of card do you want to apply for?");
         System.out.println("1. Golden card (The first top-up amount is more than $5000, \nbut you can enjoy a 20% discount for each payment.)");
-        System.out.println("2. Silver card (The first top-up amount is more than $2000, \nbut you can enjoy a 20% discount." );
-
+        System.out.println("2. Silver card (The first top-up amount is more than $2000, \nbut you can enjoy a 10% discount for each payment." );
+            // option for exit
+        System.out.println("3. Exit");
+        
         int cardType = sc.nextInt();
 
+        if (cardType == 3) {
+            System.out.println("Thank you for using the petrol station.");
+            return null;
+        }
+        
         // 1.2 Top-up amount
         System.out.println("Please enter the top-up amount:");
         double topUpAmount = sc.nextDouble();
