@@ -35,6 +35,28 @@ A Java application that simulates a petrol station membership card system with d
 
 ## How to Use
 
-1. **Start the program**:
-   ```bash
-   java com.itheima.petrolstationdemo.Test
+Example Usage
+
+Welcome to the petrol station!
+Do you have a membership card?
+1. Yes
+2. No
+
+[Select 2 to create new card]
+
+Which type of card do you want to apply for?
+1. Golden card (The first top-up amount is more than $5000...
+2. Silver card (The first top-up amount is more than $2000...
+3. Exit
+
+[Select 1 and top-up $5000]
+
+Please set your card ID: [Enter ID]
+Successfully topped up: 5000.0
+Balance after top-up: 5000.0
+
+CardId: [Your ID]
+Balance: 5000.0
+CardType: Golden Card
+
+[Now you can make payments with 20% discount]
